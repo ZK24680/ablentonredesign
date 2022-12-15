@@ -5,9 +5,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Cabin Condensed', sans-serif;
-
-    
-   
 }
 
 
@@ -157,6 +154,50 @@
 }
 
 
+/* Footer Section */
+
+.form{
+    margin:10px 0;
+}
+.form-inputs{
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 5px 8px;
+    outline: none;
+}
+
+.title-texts{
+    font-weight: 600;
+}
+
+.secondary-titles{
+    letter-spacing: 1px;
+}
+
+
+.links-items{
+    color: rgb(88, 85, 85);
+    text-decoration: none;
+}
+
+
+footer .arrangements{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+
+.last-parts{
+    display: flex;
+    align-items: center;
+}
+
+.logo-end{
+    text-align: end;
+}
+/* End Footer SEction */
+
+
 @media only screen and (max-width: 600px) {
 
     .card{
@@ -225,8 +266,18 @@
     }
 
  
+    footer .arrangements{
+        flex-direction: row;
+    }
+}
 
-
+@media only screen and (max-width: 767px) {
+    .last-parts{
+        display: block;
+    }
     
+    .logo-end{
+        text-align: start;
+    }
 }
 
