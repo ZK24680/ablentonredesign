@@ -156,6 +156,16 @@
 
 /* Footer Section */
 
+.footer-head{
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: bold;
+    margin:30px 0;
+    padding: 10px 0;
+
+}
+
+
 .form{
     margin:10px 0;
 }
@@ -237,7 +247,8 @@ footer .arrangements{
 
 
     .creation1{
-        height: 545px;
+        width: 350px;
+        height: 400px;
     }
 
 
@@ -247,7 +258,7 @@ footer .arrangements{
     }
 
     .image5{
-        width: 400px;
+        width: 300px;
         right:50% ;
         
 
@@ -255,7 +266,7 @@ footer .arrangements{
     }
 
     .image6{
-        width: 400px;
+        width: 300px;
         right: 50%;
         transform: translate(50%);
     }
@@ -271,13 +282,26 @@ footer .arrangements{
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+
+    .nav-link{
+        font-size: 8px;
+    }
+
     .last-parts{
         display: block;
     }
     
     .logo-end{
         text-align: start;
+    }
+
+
+}
+
+@media only screen and (max-width: 970px){
+    .nav-link{
+        font-size: 13px;
     }
 }
 
